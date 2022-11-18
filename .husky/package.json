@@ -1,0 +1,24 @@
+{
+  "name": "level3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "todo.js",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install.config/husky"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "prettier --write ."
+    ]
+  },
+  "author": "meghana <meghanahoney21@gmail.com>",
+  "license": "ISC"
+}
